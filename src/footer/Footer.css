@@ -1,0 +1,63 @@
+.last-section {
+    background-color: #000115;
+  }
+  
+  .last-img {
+    width: 80%;
+    height: 30%;
+    margin: 10% 0;
+    padding-top: 20px;
+    text-align: center;
+    align-items: center;
+  }
+  .icon-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10%;
+  }
+  .last-icon {
+    color: #0f92f3;
+    border-radius: 50%;
+    background-color: none;
+    font-size: 50px !important;
+    margin-top: 10px;
+    
+  }
+  .last-icon1 {
+    color: #a90056;
+    border-radius: 50%;
+    background-color: none;
+    font-size: 30px !important;
+    cursor: pointer;
+    
+  }
+  .last-icon2 {
+    color: #1da1f2;
+    border-radius: 50%;
+    background-color: none;
+    font-size: 30px !important;
+    cursor: pointer;
+    
+  }
+ 
+  .border-line {
+    border-top: 3px solid #012a4a;
+    width: 80%;
+    margin: auto;
+  }
+  .text-type {
+    color: white;
+    justify-content: center;
+    text-align: center;
+    font-family: "Disket Mono", sans-serif;
+    margin: 3% 0 0 0;
+    font-size: 18px;
+    font-weight: 100;
+  }
+  .footer_img{
+    cursor: pointer;
+    font-size: 30px;
+  }
+  

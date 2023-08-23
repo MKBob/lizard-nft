@@ -1,0 +1,84 @@
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+  
+}
+.roadmap{
+    background-color: black;
+    color: white;
+    padding: 5% 0;
+}
+.roadmapContainer{
+    padding: 3% 0;
+}
+.roadmapHeader{
+    text-align: center;
+}
+.roadmapHeader h1{
+    font-size: 2.5rem;
+    margin: 2% 0;
+    font-weight: 700;
+    color: #F3982D;
+}
+.roadmapTitle{
+    display: flex;
+    align-items: center;
+    padding: 3% 0;
+}
+.roadmapTitles{
+    font-size: 1.2rem;
+    display: inline-block;
+    /* width: 100px;
+    height: 100px; */
+    border-radius: 50%;
+    border: 5px dashed white;
+    padding: 2px 25px;
+}
+.roadmapTitles h1{
+    /* margin-top: 28px; */
+    /* margin-left: 25px; */
+}
+.roadmapDasheds{
+    width: 1.5%;
+    background-color: #ffe215;
+    height: 5px;
+    margin: 0 5px;
+    margin-left: 10px;
+}
+.roadmapDashed{
+    width: 90%;
+    background: linear-gradient(to left,#3953808e,#ffe215) ;
+    height: 5px;
+    transition: all 1s;
+	transition-timing-function: ease-in;
+}
+.roadmapDash{
+    width: 1.5%;
+    background-color:   #3953808e;
+    height: 5px;
+    margin: 0 5px;
+}
+.roadmapText{
+    width: 70%;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+.roadmapText h2{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.roadmapText li{
+    margin: 7px 0;
+    padding: 7px 0;
+    list-style: none;
+    border-bottom: 1px dashed white;
+}
+@media screen and (max-width: 1000px) {
+    .roadmapDashed{
+        width: 69%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .roadmapDashed{
+        width: 50%;
+    }
+}

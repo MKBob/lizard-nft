@@ -1,0 +1,318 @@
+.navBarHeader{
+    background-color: black;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+}
+.navBarLogoImg{
+    width: 110px;
+}
+.navBar{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.Btn img{
+    width: 25px;
+    margin: 0 7px;
+}
+
+/*-------------------------LIST-------------------------------*/
+.NavBarLists{
+    display: flex;
+    justify-content: space-between;
+    border-right: 2px solid rgb(58, 57, 57);
+    padding: 0 5px;
+}
+.NavBarLists li{
+   margin: 0.3rem;
+   list-style: none;
+   font-size: 1.3rem;
+   font-weight: 300;
+}
+.NavBarLists li a{
+    color: white;
+    text-decoration: none;
+}
+.NavBarLists li a:hover{
+    color: #c7a109;
+}
+/* -------------------ICONS------------------------------ */
+.navBarIcons{
+    margin: 0 7px;
+    display: inherit;
+}
+.icons{
+    color: #ffe215 !important;
+    cursor: pointer;
+    margin: 0 5px;
+    font-size: 1.6rem !important;
+}
+.icons:hover{
+    background-color: #ffe215 !important;
+    color: black !important;
+    border-radius: 50%;
+}
+/* ---------------------BUTTON------------------------------------- */
+Button{
+    background-color: #ffe215 !important;
+    padding:10px 20px !important;
+}
+Button:hover{
+    background-color: #584c19 !important;
+}
+.navbar-btns{
+    display: flex;
+    align-items: center;
+}
+/* ----------------------------------------DRAWER-------------------------------- */
+.navbarDrawer{
+    display: none;
+    color: black;
+
+}
+.sideBar{
+    height: 100%;
+    background-color: black;
+}
+.sideBarMenu{
+    margin: 0 2% !important;
+}
+.sideBarMenu:hover{
+    background-color: #050d1a !important;
+}
+.sideBarMenuIcon:hover{
+   color: #c7a109 !important;
+}
+.sideBarLists{
+    margin: 5% 0;
+}
+.sideBarLists li{
+    display: flex;
+    list-style: none;
+    font-size: 1.3rem;
+    font-weight: 300;
+    width: 200px;
+    cursor: pointer;
+}
+
+.sideBarLists li:hover {
+    color: #c7a109;
+}
+
+.sideBarLists a{
+    padding: 5%;
+    text-decoration: none;
+    color: white;
+}
+.sideBarLists a:active{
+    color: #c7a109;
+}
+.sideBarIcon{
+    text-align: center;
+    margin: 0 7px;
+    display: inherit;
+}
+.icon{
+    color: #ffe215 !important;
+    cursor: pointer;
+    margin: 0 5%;
+    font-size: 1.6rem !important;
+}
+.icon:active{
+    background-color: #ffe215!important;
+    color: black !important;
+    border-radius: 50%;
+}
+/* ---------------------------DROPDOWN--------------------------------- */
+.dropDown{
+    width: 200px;
+    margin: 0 auto;
+    position: relative;
+}
+.dropDown .dropDown-btn{
+    padding: 0 20px;
+    border-radius: 5px;
+    background-color: #ffe415e3;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s;
+}
+.dropDown:hover{
+    background-color: #e6bc12;
+    box-shadow: 1px 1px 5px 3px rgba(214, 214, 9, 0.642);
+}
+
+.dropDown .dropDown-btn h4{
+    font-weight: 600;
+    font-size: 1rem;
+    color: white;
+}
+.btn-Icon{
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 2rem !important;
+    color: white !important;
+}
+
+.dropDown .dropDown-content{
+    z-index: 1;
+    position: absolute;
+    top: 110%;
+    left: 0;
+    border-radius: 5px;
+    padding: 0 10px;
+    background-color: #ffe415e3;
+    box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+    font-weight: 500;
+    color: #333;
+    width: 93% ;
+} 
+.dropDown .dropDown-content .dropDown-item{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+    width: 100%;
+}
+.dropDown .dropDown-content:hover{
+    background-color: #b4920c;
+    box-shadow: 1px 1px 5px 3px rgba(214, 214, 9, 0.642);
+}
+.dropDown .dropDown-content .dropDown-item:active{
+    color: #000;
+    box-shadow: 1px 1px 5px 3px rgba(71, 71, 60, 0.716);
+}
+.dropDown-itemText{
+    width: 80%;
+    font-size: 1rem;
+}
+.dropDown-itemIcon{
+    padding: 0;
+    width: 20%;
+    text-align: center;
+    margin: 0 7px;
+}
+.dropDown-itemIcon img{
+    margin: 0 auto;
+    width: 30px;
+}
+
+/* .links:hover {
+    border-right: 2px solid rgb(58, 57, 57);
+    border-left: 2px solid rgb(58, 57, 57);
+    padding: 4px;  
+    transition: all 0.1s;
+    position: relative;
+} */
+/* -------------------------MEDIA-------------------------------------- */
+@media screen and (max-width: 1040px) {
+    .NavBarLists li{
+        margin: 0 5px;
+        font-size: 1rem;
+     }
+     .icons{
+        margin: 0 3px;
+        font-size: 1.3rem !important;
+    }
+    .navBar{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 820px) {
+    .dropDown{
+        white-space: nowrap;
+        margin:0 10px auto;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .dropDown .dropDown-content{
+        width: 93%;
+    }
+    .navBarIcons{
+        display: none;
+    }
+    .navBarList{
+        display: none;
+    }
+    .navbarDrawer{
+        display: flex;
+    }
+    
+}
+@media screen and (max-width: 700px) {
+    .navBarBtn{
+        margin-left: 40%;
+    }
+    Button{
+        padding:7px 10px !important;
+    }
+}
+@media screen and (max-width: 550px) {
+    .dropDown{
+        margin:0 5px auto;
+        /* padding: 4px 20px; */
+        font-size: 1rem ;
+    }
+    .dropDown .dropDown-content{
+        text-align: center;
+        width: 93%;
+    }
+}
+@media screen and (max-width: 500px){
+    .navBarBtn{
+        margin-left: 20%;
+    } 
+}
+@media screen and (max-width: 450px){
+    .dropDown{
+        margin:0 auto;
+        padding: 0px 0px;
+    }
+    .dropDown h4{
+        font-size: 0.6rem ;
+        
+    }
+    .navBarLogo img{
+        width: 80px;
+    }
+    .dropDown-itemIcon{
+        width: 40%;
+        text-align: center;
+    }
+    .dropDown .dropDown-content{
+        text-align: center;
+        width: 83%;
+        left: 7%;
+    }
+    
+}
+@media screen and (max-width: 400px){
+    .dropDown {
+        width: 180px;
+    }
+    .dropDown .dropDown-btn h4{
+        font-weight: 600;
+        font-size: 1rem;
+        color: white;
+    }
+    .dropDown .dropDown-content{
+        text-align: center;
+        /* left: 8%; */
+        width: 77%;
+    }
+    .dropDown-itemText{
+        font-size: 1rem;
+    }
+}

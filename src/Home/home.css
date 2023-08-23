@@ -1,0 +1,67 @@
+  .secOne{
+     background-image: url("../../public/Assets/home.jpg"); 
+     width: 100%;
+     height: auto;
+     background-size: 100% 100%; 
+     background-position: center;
+     background-size: cover;
+    
+}   
+.secOnehome{
+    text-align: center;
+    margin: 8% 0 !important;
+}
+.secOnehome h1{
+   
+    font-weight: 800;
+    color: white;
+    letter-spacing: 5px;
+    background-clip: text;
+    font-size: 4rem;
+    font-family: 'Montserrat Alternates',sans-serif;
+    line-height: 1.3;
+    padding-bottom: 13%;
+}
+.secOnehome button{
+    color: #ffff;
+    font-size: 1rem;
+    background: linear-gradient(#ec1c92,#ec1c92);
+    font-family: 'Montserrat Alternates',sans-serif;
+    padding: 20px 50px;
+    border: 2px solid #6db7f3;
+    margin-top: 25px;  
+
+}
+
+.secOnehome button:hover{
+    cursor: pointer;
+    background: linear-gradient(#eb2cab,#f732ac);
+}
+
+@media screen and (max-width: 800px) {
+    .secOnehome h1{
+        font-size: 3.5rem;
+    }
+    .secOnehome button{
+        font-size: 0.8rem;
+    }
+
+
+}
+@media screen and (max-width: 600px) {
+    .secOnehome h1{
+        font-size: 2.5rem;
+    }
+    .secOnehome button{
+        font-size: 0.5rem;
+    }
+
+
+}
+@media screen and (max-width: 800px) {
+    .secOne{
+     width: 90%;
+    }
+
+
+}
